@@ -1,0 +1,16 @@
+node_modules/
+build/
+dist/
+.wrangler/
+coverage/
+.DS_Store
+*.log
+bun.lock
+bun.lockb
+package-lock.json
+.env*
+!.env.example
+# 本地开发运行时数据：含真实厂商 Key 与客户端令牌，绝不上线、不进仓库
+data/gateway-store.json
+# wrangler types 生成物，可随时用 wrangler types 重新生成
+worker-configuration.d.ts

@@ -1,0 +1,1 @@
+{"$schema":"./node_modules/wrangler/config-schema.json","compatibility_date":"2026-03-01","durable_objects":{"bindings":[{"class_name":"AiGatewayDurableObject","name":"AI_GATEWAY_DO","script_name":"aimultigate-do"}]},"name":"gateai","pages_build_output_dir":"./dist","vars":{"ALLOWED_ORIGINS":"https://gateai.pages.dev"}}
